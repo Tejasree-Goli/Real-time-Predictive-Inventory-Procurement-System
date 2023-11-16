@@ -58,22 +58,17 @@ Accurately predict the stock levels of products based on sales data and sensor d
 3. Merge different tables into a single data frame
      <ul>
        <li> To tain a machine learning model, we have to perform feature engineering by extracting and transforming the features from all tables into one data frame.</li>
-       a. Converted the timestamp in all tables into common hourly timestamp format as per the given problem.
-       
-       b. Aggregated the columns
-   
-       c. Combine the features
+       <li> Converted the timestamp in all tables into common hourly timestamp format as per the given problem </li>
+       <li> Aggregated the columns </li>
+       <li> Combine the features </li>
      </ul>
 5. Conduct Feature Engineering
      <ul>
        <li> Transforming features into format suitable for training the machine learning model.</li>
-           a. In this project, we are considering numerical columns for the analysis
-       
-           b. Transformed timestamp column
-   
-           c. Converted category columns into numerical by using dummy variables
-   
-           d. Dropped product_id column as it does not add value to the analysis.
+           <li>In this project, we are considering numerical columns for the analysis. </li>
+           <li> Transformed timestamp column. </li>
+           <li> Converted category columns into numerical by using dummy variables. </li>
+           <li> Dropped product_id column as it does not add value to the analysis. </li>
      </ul>
 7. Modeling
      <ul>
@@ -85,13 +80,10 @@ Accurately predict the stock levels of products based on sales data and sensor d
 5. Analyze results
     <ul>
       <li> Analyze the results of the trained machine learning model: </li>
-        - what is accuracy? 
-      
-        - how is the model performing?
-   
-        - what can be concluded based on the performance?
-   
-        - What are thre recommendations?
+        <li> what is accuracy? </li>
+        <li> how is the model performing? </li>
+        <li> what can be concluded based on the performance? </li>
+        <li> What are thre recommendations? </li>
     </ul>
 
 

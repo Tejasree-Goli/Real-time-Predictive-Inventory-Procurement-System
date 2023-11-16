@@ -20,6 +20,7 @@ Accurately predict the stock levels of products based on sales data and sensor d
 
 
 <h4><b>Implementation:</b> </h4>
+
 **Task - 1**
 
 1. Collect a sample dataset from Data Engineering team for the given problem statement.
@@ -87,3 +88,9 @@ Accurately predict the stock levels of products based on sales data and sensor d
 
 
 **Note:** The python notebooks have detailed comments for each code block to make it readale and understandable.
+
+**Task - 3**
+1. After the conclusions are drawn from the model, sumamrize them and present it to the team leader.
+2. If everything is approved, develop standard .py code file to provide the machine learning engineering team.
+    <ul> The MLE team, optimizes the code to make it production ready and deploys it for testing with real-time data</ul>
+    <ul> After monitoring the performance of the model, with the live data - the MLE team either approves the submission and continues to monitor its performance or gets back to the individual with their observations and recommendations on how we can improve the performance of the model.</ul>

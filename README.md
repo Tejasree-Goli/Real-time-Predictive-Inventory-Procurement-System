@@ -65,10 +65,12 @@ Accurately predict the stock levels of products based on sales data and sensor d
 5. Conduct Feature Engineering
      <ul>
        <li> Transforming features into format suitable for training the machine learning model.</li>
+       <ul>
            <li>In this project, we are considering numerical columns for the analysis. </li>
            <li> Transformed timestamp column. </li>
            <li> Converted category columns into numerical by using dummy variables. </li>
            <li> Dropped product_id column as it does not add value to the analysis. </li>
+       </ul>
      </ul>
 7. Modeling
      <ul>
@@ -80,10 +82,12 @@ Accurately predict the stock levels of products based on sales data and sensor d
 5. Analyze results
     <ul>
       <li> Analyze the results of the trained machine learning model: </li>
+      <ul>
         <li> what is accuracy? </li>
         <li> how is the model performing? </li>
         <li> what can be concluded based on the performance? </li>
         <li> What are thre recommendations? </li>
+      </ul>
     </ul>
 
 

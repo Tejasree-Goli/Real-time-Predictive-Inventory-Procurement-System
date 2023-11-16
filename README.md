@@ -59,18 +59,23 @@ Accurately predict the stock levels of products based on sales data and sensor d
      <ul>
        <li> To tain a machine learning model, we have to perform feature engineering by extracting and transforming the features from all tables into one data frame.</li>
        a. Converted the timestamp in all tables into common hourly timestamp format as per the given problem.
+       
        b. Aggregated the columns
+   
        c. Combine the features
      </ul>
-4. Conduct Feature Engineering
+5. Conduct Feature Engineering
      <ul>
        <li> Transforming features into format suitable for training the machine learning model.</li>
            a. In this project, we are considering numerical columns for the analysis
+       
            b. Transformed timestamp column
+   
            c. Converted category columns into numerical by using dummy variables
+   
            d. Dropped product_id column as it does not add value to the analysis.
      </ul>
-5. Modeling
+7. Modeling
      <ul>
        <li> Install all the required libraries</li>
        <li> A supervised machine learning model - Random Forest Regressor is used in this project</li>
@@ -81,8 +86,11 @@ Accurately predict the stock levels of products based on sales data and sensor d
     <ul>
       <li> Analyze the results of the trained machine learning model: </li>
         - what is accuracy? 
-        - how is the model performing? 
+      
+        - how is the model performing?
+   
         - what can be concluded based on the performance?
+   
         - What are thre recommendations?
     </ul>
 
@@ -92,5 +100,7 @@ Accurately predict the stock levels of products based on sales data and sensor d
 **Task - 3**
 1. After the conclusions are drawn from the model, sumamrize them and present it to the team leader.
 2. If everything is approved, develop standard .py code file to provide the machine learning engineering team.
-    <ul> The MLE team, optimizes the code to make it production ready and deploys it for testing with real-time data</ul>
-    <ul> After monitoring the performance of the model, with the live data - the MLE team either approves the submission and continues to monitor its performance or gets back to the individual with their observations and recommendations on how we can improve the performance of the model.</ul>
+    <ul> 
+      <li>The MLE team, optimizes the code to make it production ready and deploys it for testing with real-time data </li>
+      <li> After monitoring the performance of the model, with the live data - the MLE team either approves the submission and continues to monitor its performance or gets back to the individual with their observations and recommendations on how we can improve the performance of the model. </li>
+    </ul>
